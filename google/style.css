@@ -35,11 +35,20 @@
     color: #5f6368;
     opacity: 1;
     fill: currentColor;
+    border-radius: 100px;
+}
+
+.header-image1:hover {
+    background-color:rgba(0,0,0,.12)
 }
 
 .header-image2 {
     padding: 4px;
     border-radius: 50px;
+}
+
+.header-image2:hover {
+    background-color:rgba(0,0,0,.12)
 }
 
 .header {
@@ -182,7 +191,6 @@
 }
 
 .main-button-border {
-    background: url(//www.gstatic.com/inputtools/images/tia.png) no-repeat center;
     height: 24px;
     width: 24px;
     vertical-align: middle;
@@ -297,9 +305,6 @@
 .footer-eco-border {
     display:block;
     padding:15px;
-    white-space:nowrap;
-    color: #70757a;
-    cursor: pointer;
     text-decoration: none;
 }
 
